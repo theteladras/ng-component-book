@@ -1,0 +1,43 @@
+div.roboto {
+  font-family: "Roboto";
+}
+
+div.zen-kurenaido {
+  font-family: "Zen Kurenaido";
+}
+
+div.poppins {
+  font-family: "Poppins";
+}
+
+div.ubuntu {
+  font-family: "Ubuntu";
+}
+
+div.default {
+  font-family: inherit;
+}
+
+.sm {
+  font-size: 12px;
+}
+
+.md {
+  font-size: 16px;
+}
+
+.lr {
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle {
+  color: #f44;
+  font-weight: 100;
+  font-size: 20px;
+  cursor: pointer;
+}

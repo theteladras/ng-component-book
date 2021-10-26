@@ -19,7 +19,7 @@ export class ViewsHomeComponent implements OnInit {
   items = [
     {
       image:
-        'https://lh3.googleusercontent.com/proxy/5el9Xw7pgw69VcItEvoDr7d9_Uifx8lGFVp9KnHnV7Kixazwz2CphwZFNLoiTKjy41xzqcYchKDjtV_3d9O7j_NCv2Fblm1M-qDFZTafTy1eRT_mDdaT9zrVnMXr3a_qpGz5rx7EUonr',
+        'https://e.snmc.io/i/600/s/85f366b0444aa9f088d140a86ed5c3d0/6291170/ekatarina-velika-ljubav-cover-art.jpg',
       title: 'Ekatarina Velika',
       description:
         'Serbian and Yugoslav rock band from Belgrade, being one of the most successful and influential Yugoslav music acts.',

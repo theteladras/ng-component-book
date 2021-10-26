@@ -31,6 +31,13 @@ const routes: Routes = [
       ),
   },
   {
+    path: 'fonts',
+    loadChildren: () =>
+      import('./fonts/fonts.module').then(
+        (m) => m.FontsModule
+      ),
+  },
+  {
     path: '',
     component: HomeComponent,
   },

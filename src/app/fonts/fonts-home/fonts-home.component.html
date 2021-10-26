@@ -1,0 +1,27 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&family=Ubuntu:wght@300&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+<ng-container *ngFor="let font of fonts">
+    <app-divider>
+        <div class="header">
+            <div>{{ font.name }}</div>
+            <div
+                class="toggle"
+                (click)="toggle(font.name)"
+            >
+                {{ font.isCollapsed ? '+' : '-' }}
+            </div>
+        </div>
+    </app-divider>
+    <div [class]="font.css" *ngIf="!font.isCollapsed">
+        <p class="sm">
+            Almost before we knew it, we had left the ground.
+        </p>
+        <p class="md">
+            Almost before we knew it, we had left the ground.
+        </p>
+        <p class="lr">
+            Almost before we knew it, we had left the ground.
+        </p>
+    </div>
+</ng-container>
