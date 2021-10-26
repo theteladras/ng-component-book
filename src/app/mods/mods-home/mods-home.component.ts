@@ -7,6 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModsHomeComponent implements OnInit {
   isModalOpen = false;
+  items = [
+    {
+      title: 'James Bond',
+      content: 'British secret agent, going by the codename 007.',
+    },
+    {
+      title: 'John Wick',
+      content: 'John Wick was an orphan taken in by the Tarasov Russian Mafia and raised as an assassin.',
+    },
+  ];
 
   constructor() {}
 
